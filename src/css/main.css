@@ -72,7 +72,7 @@ site-footer {
 }
 
 .navbar {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -81,6 +81,7 @@ site-footer {
 
 .logo {
   flex-shrink: 0;
+  margin-right: 30px;
 }
 
 .logo img {
@@ -93,7 +94,7 @@ site-footer {
 /* Desktop Menu */
 .nav-links {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   align-items: center;
 }
 
@@ -101,8 +102,8 @@ site-footer {
   color: rgba(255, 255, 255, 0.8);
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
-  font-size: 15px;
-  padding: 8px 16px;
+  font-size: 14px;
+  padding: 6px 12px;
   border-radius: var(--radius-sharp);
   transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
   text-decoration: none;

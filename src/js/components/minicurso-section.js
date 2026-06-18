@@ -77,7 +77,7 @@ class MinicursoSection extends HTMLElement {
 
             <div class="minicurso-action">
               <div class="action-status">
-                <span class="status-indicator-green"></span> Inscrições abertas via e-mail e Even3!
+                <span class="status-indicator-green"></span> Inscrições abertas via e-mail!
               </div>
               <a href="#inscricao" class="btn-primary" id="minicurso-to-inscricao">Fazer Inscrição no Simpósio</a>
             </div>

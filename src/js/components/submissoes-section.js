@@ -16,23 +16,23 @@ class SubmissionsSection extends HTMLElement {
             </div>
 
             <div class="brutalist-card">
-              <h3 class="card-title">📖 NORMAS E TEMPLATE</h3>
+              <h3 class="card-title">NORMAS E TEMPLATE</h3>
               <p class="card-desc">Utilize o modelo oficial para formatação do seu Resumo Expandido (apresentação no formato de banner).</p>
               <a href="https://docs.google.com/document/d/1zc_y5p0T97LIuZqapUnDlhxbnzGbSTsy/edit?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
-                📄 Baixar Template (.docx)
+                Baixar Template (.docx)
               </a>
             </div>
 
             <div class="brutalist-card">
-              <h3 class="card-title">📥 ENVIAR TRABALHO</h3>
+              <h3 class="card-title">ENVIAR TRABALHO</h3>
               <p class="card-desc text-muted">Atenção aos dois formulários específicos de submissão:</p>
               
               <div class="action-buttons-stack">
                 <a href="https://forms.gle/Eu8E66dznLZzitaX6" target="_blank" rel="noopener noreferrer" class="btn-primary btn-full text-center margin-bottom-sm">
-                  🖼️ Apresentação em Banner (Inscritos Gerais)
+                  Apresentação em Banner (Inscritos Gerais)
                 </a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdE8xn3PSW90hZsCa7PxWb3DOe6fjasb9XxG34-HDNgE5jvig/viewform?usp=preview" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
-                  🗣️ Apresentação Oral (Exclusivo Alunos PGCST)
+                  Apresentação Oral (Exclusivo Alunos PGCST)
                 </a>
               </div>
             </div>
@@ -46,20 +46,19 @@ class SubmissionsSection extends HTMLElement {
             </div>
 
             <div class="brutalist-card">
-              <h3 class="card-title">📩 DÚVIDAS OU SUPORTE</h3>
+              <h3 class="card-title">DÚVIDAS OU SUPORTE</h3>
               <p class="card-desc">Dúvidas relacionadas a trabalhos ou plataforma? Entre em contato com a organização:</p>
-              <a href="mailto:xiiispgcst@gmail.com" class="support-email">xiiispgcst@gmail.com</a>
+              <a href="mailto:contato@simposiocst.com.br" class="support-email">contato@simposiocst.com.br</a>
             </div>
           </div>
 
           <!-- Coluna 2: Eixos Temáticos -->
           <div class="submissions-col-axes">
-            <h3 class="axes-heading">🧭 EIXOS TEMÁTICOS</h3>
+            <h3 class="axes-heading">EIXOS TEMÁTICOS</h3>
 
             <!-- Eixo 1 -->
             <div class="eixo-card">
               <div class="eixo-header">
-                <span class="eixo-icon">🌱</span>
                 <h4 class="eixo-title">Eixo 1 - Território, Justiça Socioambiental e Educação Transdisciplinar</h4>
               </div>
               <div class="eixo-body">
@@ -78,7 +77,6 @@ class SubmissionsSection extends HTMLElement {
             <!-- Eixo 2 -->
             <div class="eixo-card">
               <div class="eixo-header">
-                <span class="eixo-icon">🌎</span>
                 <h4 class="eixo-title">Eixo 2 - Dinâmicas Ambientais e Climáticas no Sistema Terrestre</h4>
               </div>
               <div class="eixo-body">
@@ -96,7 +94,6 @@ class SubmissionsSection extends HTMLElement {
             <!-- Eixo 3 -->
             <div class="eixo-card">
               <div class="eixo-header">
-                <span class="eixo-icon">🛰️</span>
                 <h4 class="eixo-title">Eixo 3 - Inovação, Modelagem e Monitoramento do Sistema Terrestre</h4>
               </div>
               <div class="eixo-body">
