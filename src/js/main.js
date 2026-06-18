@@ -6,6 +6,10 @@ import './components/site-footer.js'
 import './components/schedule-timeline.js'
 import './components/speakers-list.js'
 import './components/organizing-committee.js'
+import './components/submissoes-section.js'
+import './components/minicurso-section.js'
+import './components/patrocinadores-section.js'
+import './components/apoio-section.js'
 import { initGlobe } from './globe.js'
 
 document.addEventListener('DOMContentLoaded', () => {
