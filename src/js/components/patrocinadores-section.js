@@ -3,7 +3,11 @@ class SponsorsSection extends HTMLElement {
     this.innerHTML = `
       <div class="sponsors-container">
         <div class="sponsors-grid">
+          <p class="placeholder-text text-muted" style="text-align: center; grid-column: 1 / -1; padding: 40px 20px; color: rgba(255, 255, 255, 0.6); font-family: 'Quicksand', sans-serif; font-size: 1.1rem; border: 1px dashed rgba(255, 255, 255, 0.15);">
+            Os patrocinadores oficiais do evento serão anunciados em breve.
+          </p>
           
+          <!--
           <a href="https://plantsciencebrasil.com.br/" target="_blank" rel="noopener noreferrer" class="sponsor-card">
             <div class="sponsor-logo-wrapper">
               <img src="https://static.even3.com/pagina-evento/logoplantscienceBrasil.68301134ebb747b5b6a4.jpgatualizada.68301134ebb747b5b6a4.jpg" alt="Plant Science Brasil" class="sponsor-logo" />
@@ -43,6 +47,7 @@ class SponsorsSection extends HTMLElement {
               <span class="sponsor-link-tag">Visitar Website ↗</span>
             </div>
           </a>
+          -->
 
         </div>
       </div>

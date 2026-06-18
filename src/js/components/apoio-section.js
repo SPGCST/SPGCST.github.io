@@ -3,7 +3,11 @@ class ApoioSection extends HTMLElement {
     this.innerHTML = `
       <div class="apoio-container">
         <div class="apoio-grid">
-          
+          <p class="placeholder-text text-muted" style="text-align: center; grid-column: 1 / -1; padding: 40px 20px; color: rgba(255, 255, 255, 0.6); font-family: 'Quicksand', sans-serif; font-size: 1.1rem; border: 1px dashed rgba(255, 255, 255, 0.15);">
+            Os apoiadores oficiais do evento serão anunciados em breve.
+          </p>
+
+          <!--
           <div class="apoio-card">
             <div class="apoio-logo-wrapper">
               <img src="https://static.even3.com/pagina-evento/Logo-geoaplicada.6c2b7b1242dc4cb697ac.png" alt="Geoaplicada" class="apoio-logo" />
@@ -30,6 +34,7 @@ class ApoioSection extends HTMLElement {
               <span class="apoio-name">Cemaden Educação</span>
             </div>
           </div>
+          -->
 
         </div>
       </div>
