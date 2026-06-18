@@ -97,13 +97,16 @@ class SiteHeader extends HTMLElement {
             });
 
             // Rola suavemente
-            if (targetId === 'hero') {
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            } else {
-              const headerOffset = 80;
-              const elementPosition = targetSection.getBoundingClientRect().top;
-              const offsetPosition = elementPosition + window.scrollY - headerOffset;
-              window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+            const scrollContainer = document.querySelector('.scroll-container');
+            if (scrollContainer) {
+              if (targetId === 'hero') {
+                scrollContainer.scrollTo({ top: 0, behavior: 'smooth' });
+              } else {
+                const elementPosition = targetSection.getBoundingClientRect().top;
+                const containerPosition = scrollContainer.getBoundingClientRect().top;
+                const offsetPosition = scrollContainer.scrollTop + elementPosition - containerPosition;
+                scrollContainer.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+              }
             }
           }
         }

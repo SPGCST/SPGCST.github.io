@@ -24,72 +24,74 @@
     <!-- HEADER & NAVEGAÇÃO COMPONENTIZADO -->
     <site-header></site-header>
 
-    <main id="app-main">
-      <!-- HERO SECTION -->
-      <section id="hero" class="hero-wrapper view-section active-section">
-        <!-- Background 3D Globe -->
-        <div id="globe-container"></div>
-        
-        <div class="hero">
-          <div class="hero-content">
-            <img src="/src/assets/images/banner_home.png" alt="Logo Simpósio" class="hero-logo" />
-            <h1>Conectando Dinâmicas, <br>Entendendo Mudanças</h1>
-            <p>O Futuro do Sistema Terrestre &mdash; 22 e 23 de Outubro de 2026</p>
+    <div class="scroll-container">
+      <main id="app-main">
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero-wrapper view-section active-section">
+          <!-- Background 3D Globe -->
+          <div id="globe-container"></div>
+          
+          <div class="hero">
+            <div class="hero-content">
+              <img src="/src/assets/images/banner_home.png" alt="Logo Simpósio" class="hero-logo" />
+              <h1>Conectando Dinâmicas, <br>Entendendo Mudanças</h1>
+              <p>O Futuro do Sistema Terrestre &mdash; 22 e 23 de Outubro de 2026</p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-            <!-- PROGRAMAÇÃO -->
-      <section id="programacao" class="view-section">
-        <div class="container">
-          <h2>Programação do Simpósio</h2>
-          <schedule-timeline></schedule-timeline>
-        </div>
-      </section>
-
-      <!-- PALESTRANTES -->
-      <section id="palestrantes" class="view-section">
-        <div class="container">
-          <h2>Palestrantes Confirmados</h2>
-          <speakers-list></speakers-list>
-        </div>
-      </section>
-
-      <!-- LOCAL -->
-      <section id="local" class="view-section">
-        <div class="container" style="text-align: center;">
-          <h2>Local do Evento</h2>
-          <div style="font-size: 1.2rem; line-height: 2; color: #e0e0e0;">
-            <p><strong>INPE - Instituto Nacional de Pesquisas Espaciais</strong></p>
-            <p><strong>08h30 às 15h30:</strong> Auditório Fernando de Mendonça, prédio do LIT.</p>
-            <p><strong>15h30 às 17h00:</strong> Prédio da DIIAV/CCST.</p>
-            <p><strong>Encerramento (22/10):</strong> Auditório Fernando de Mendonça.</p>
-            <p><strong>23/10:</strong> Saída de Campo (a definir).</p>
+              <!-- PROGRAMAÇÃO -->
+        <section id="programacao" class="view-section">
+          <div class="container">
+            <h2>Programação do Simpósio</h2>
+            <schedule-timeline></schedule-timeline>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- INSCRIÇÃO -->
-      <section id="inscricao" class="view-section">
-        <div class="container" style="text-align: center;">
-          <h2>Faça sua Inscrição</h2>
-          <p style="margin-bottom: 20px; font-size: 1.2rem;">Garanta sua vaga no 13º SPGCST.</p>
-          <a href="https://www.even3.com.br/" target="_blank" rel="noopener noreferrer" class="btn-primary">Acessar plataforma Even3</a>
-        </div>
-      </section>
+        <!-- PALESTRANTES -->
+        <section id="palestrantes" class="view-section">
+          <div class="container">
+            <h2>Palestrantes Confirmados</h2>
+            <speakers-list></speakers-list>
+          </div>
+        </section>
 
-      <!-- COMISSÃO ORGANIZADORA -->
-      <!-- COMISSÃO ORGANIZADORA -->
-      <section id="comissao" class="view-section comissao-section">
-        <div class="container">
-          <h2>Comissão Organizadora</h2>
-          <organizing-committee></organizing-committee>
-        </div>
-      </section>
-    </main>
+        <!-- LOCAL -->
+        <section id="local" class="view-section">
+          <div class="container" style="text-align: center;">
+            <h2>Local do Evento</h2>
+            <div style="font-size: 1.2rem; line-height: 2; color: #e0e0e0;">
+              <p><strong>INPE - Instituto Nacional de Pesquisas Espaciais</strong></p>
+              <p><strong>08h30 às 15h30:</strong> Auditório Fernando de Mendonça, prédio do LIT.</p>
+              <p><strong>15h30 às 17h00:</strong> Prédio da DIIAV/CCST.</p>
+              <p><strong>Encerramento (22/10):</strong> Auditório Fernando de Mendonça.</p>
+              <p><strong>23/10:</strong> Saída de Campo (a definir).</p>
+            </div>
+          </div>
+        </section>
 
-    <!-- FOOTER COMPONENTIZADO -->
-    <site-footer></site-footer>
+        <!-- INSCRIÇÃO -->
+        <section id="inscricao" class="view-section">
+          <div class="container" style="text-align: center;">
+            <h2>Faça sua Inscrição</h2>
+            <p style="margin-bottom: 20px; font-size: 1.2rem;">Garanta sua vaga no 13º SPGCST.</p>
+            <a href="https://www.even3.com.br/" target="_blank" rel="noopener noreferrer" class="btn-primary">Acessar plataforma Even3</a>
+          </div>
+        </section>
+
+        <!-- COMISSÃO ORGANIZADORA -->
+        <!-- COMISSÃO ORGANIZADORA -->
+        <section id="comissao" class="view-section comissao-section">
+          <div class="container">
+            <h2>Comissão Organizadora</h2>
+            <organizing-committee></organizing-committee>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER COMPONENTIZADO -->
+      <site-footer></site-footer>
+    </div>
 
     <script type="module" src="/src/js/main.js"></script>
   </body>

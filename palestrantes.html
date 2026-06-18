@@ -22,17 +22,19 @@
     <!-- HEADER & NAVEGAÇÃO COMPONENTIZADO -->
     <site-header></site-header>
 
-    <main>
-      <section class="speakers-section" style="padding-top: 40px;">
-        <div class="container">
-          <h2 style="text-align: center; margin-bottom: 40px; font-family: var(--font-family-track);">Palestrantes Confirmados</h2>
-          <speakers-list></speakers-list>
-        </div>
-      </section>
-    </main>
+    <div class="scroll-container">
+      <main>
+        <section class="speakers-section" style="padding-top: 40px;">
+          <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px; font-family: var(--font-family-track);">Palestrantes Confirmados</h2>
+            <speakers-list></speakers-list>
+          </div>
+        </section>
+      </main>
 
-    <!-- FOOTER COMPONENTIZADO -->
-    <site-footer></site-footer>
+      <!-- FOOTER COMPONENTIZADO -->
+      <site-footer></site-footer>
+    </div>
 
     <script type="module" src="/src/js/main.js"></script>
   </body>
