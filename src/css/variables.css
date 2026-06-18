@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Questrial&family=Quicksand:wght@400;500;600;700&display=swap');
+
+/* Nota: Track e Atsanee podem não estar disponíveis nativamente no Google Fonts, caso não estejam, usaremos fallbacks até importar os arquivos .woff locais. */
+
+:root {
+  /* Cores extraídas da Imagem 6 */
+  /* Azuis */
+  --color-blue-dark: #010a15; /* Azul profundo (quase preto) extraído exatamente do exemplo de design */
+  
+  /* Cores baseadas no Evento - Dark Mode Premium */
+  --color-bg-dark: var(--color-blue-dark); /* Restaurado para a cor principal do banner/evento */
+  --color-bg-panel: rgba(18, 52, 86, 0.8); /* Painel translúcido na mesma paleta */
+  --color-blue-menu: #3b98d3; /* Cor extraída do print (Azul Celeste/Médio) */
+  --color-blue-base: #1e457e; 
+  --color-green-light: #00ff66; /* Verde Limão Tecnológico (Destaque) */
+  --color-green-dark: #008833;
+  --color-orange: #ff5722; /* Laranja/Coral para CTAs */
+
+  /* Fontes (Canva) */
+  --font-family-track: 'Track', sans-serif;
+  --font-family-questrial: 'Questrial', sans-serif;
+  --font-family-contrail: 'Contrail One', sans-serif;
+  --font-family-quicksand: 'Quicksand', sans-serif;
+
+  /* Geometria Brutalista (Nada de cantos arredondados fofos) */
+  --radius-sharp: 0px;
+  --radius-button: 2px;
+  --border-thin: 1px solid rgba(255, 255, 255, 0.1);
+  --border-neon: 1px solid var(--color-green-light);
+  
+  --font-family-base: var(--font-family-quicksand);
+}

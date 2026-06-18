@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Production build outputs
+dist/
+
+# Local Gemini/Playwright/MCP agent files
+.gemini/
+.tempmediaStorage/
+.playwright-mcp/
+*.log
+
+# System/IDE configs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
