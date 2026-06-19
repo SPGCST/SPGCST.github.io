@@ -651,6 +651,8 @@ section h2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
     z-index: 999;
+    max-height: calc(100vh - 80px); /* Evita extrapolar a tela */
+    overflow-y: auto; /* Permite rolar se necessário */
   }
 
   .nav-links.show {
@@ -687,6 +689,8 @@ section h2 {
 
   .hero {
     padding-top: clamp(20px, 4vh, 60px);
+    height: auto;
+    padding-bottom: 45px;
   }
 
   .hero-logo {
@@ -718,6 +722,26 @@ section h2 {
     text-align: center;
     box-sizing: border-box;
     margin-top: 0;
+  }
+
+  /* Ajustes do Footer para Mobile */
+  .site-footer {
+    padding: 20px 0;
+    font-size: 0.8rem;
+  }
+
+  .footer-socials {
+    margin-bottom: 10px;
+  }
+
+  .social-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .social-icon-img {
+    width: 16px;
+    height: 16px;
   }
 }
 
