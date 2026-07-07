@@ -1,3 +1,6 @@
+import resumoTemplate from '../../assets/templates/Template XIIISPGCST 2026 - Resumo Expandido.docx?url';
+import bannerTemplate from '../../assets/templates/XIII SPGCST - Banner.pptx?url';
+
 class SubmissionsSection extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -19,10 +22,10 @@ class SubmissionsSection extends HTMLElement {
               <h3 class="card-title">NORMAS E TEMPLATES</h3>
               <p class="card-desc">Utilize os modelos oficiais para formatação do seu Resumo Expandido e Banner.</p>
               <div class="action-buttons-stack">
-                <a href="/src/assets/templates/Template%20XIIISPGCST%202026%20-%20Resumo%20Expandido.docx" download="Template_XIIISPGCST_2026_Resumo_Expandido.docx" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center margin-bottom-sm">
+                <a href="${resumoTemplate}" download="Template_XIIISPGCST_2026_Resumo_Expandido.docx" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center margin-bottom-sm">
                   Baixar Template Resumo (.docx)
                 </a>
-                <a href="/src/assets/templates/XIII%20SPGCST%20-%20Banner.pptx" download="XIII_SPGCST_Banner.pptx" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
+                <a href="${bannerTemplate}" download="XIII_SPGCST_Banner.pptx" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
                   Baixar Template Banner (.pptx)
                 </a>
               </div>
