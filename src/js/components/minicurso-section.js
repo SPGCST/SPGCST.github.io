@@ -41,7 +41,7 @@ class MinicursoSection extends HTMLElement {
             <div class="minicurso-details-grid">
               <div class="detail-cell">
                 <span class="detail-label">📅 DATA</span>
-                <span class="detail-value">22 de Outubro de 2026</span>
+                <span class="detail-value">23 de Outubro de 2026</span>
               </div>
               <div class="detail-cell">
                 <span class="detail-label">🕒 HORÁRIO</span>
