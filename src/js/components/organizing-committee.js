@@ -54,6 +54,10 @@ class OrganizingCommittee extends HTMLElement {
           <h3 class="comissao-name">Yumi Okumura Moliné</h3>
           <p class="comissao-institution">PGCST/INPE</p>
         </a>
+        <a href="http://lattes.cnpq.br/1916824822942749" target="_blank" rel="noopener noreferrer" class="comissao-card" style="text-decoration: none; color: inherit;">
+          <h3 class="comissao-name">Luis Henrique da Silva Campos</h3>
+          <p class="comissao-institution">PGCST/INPE</p>
+        </a>
       </div>
     `;
   }
