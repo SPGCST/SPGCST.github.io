@@ -7,16 +7,16 @@ class SiteHeader extends HTMLElement {
     const isIndex = page === "index.html" || page === "";
 
     // URLs para as seções (âncoras na Home, caminhos reais nas outras páginas)
-    const inicioHref = isIndex ? "#hero" : "index.html";
-    const programacaoHref = isIndex ? "#programacao" : "index.html#programacao";
-    const submissoesHref = isIndex ? "#submissoes" : "index.html#submissoes";
-    const minicursoHref = isIndex ? "#minicurso" : "index.html#minicurso";
-    const palestrantesHref = isIndex ? "#palestrantes" : "index.html#palestrantes";
-    const localHref = isIndex ? "#local" : "index.html#local";
-    const comissaoHref = isIndex ? "#comissao" : "index.html#comissao";
-    const patrocinadoresHref = isIndex ? "#patrocinadores" : "index.html#patrocinadores";
-    const apoioHref = isIndex ? "#apoio" : "index.html#apoio";
-    const inscricaoHref = isIndex ? "#inscricao" : "index.html#inscricao";
+    const inicioHref = isIndex ? "#hero" : "../index.html";
+    const programacaoHref = isIndex ? "#programacao" : "../index.html#programacao";
+    const submissoesHref = isIndex ? "#submissoes" : "../index.html#submissoes";
+    const minicursoHref = isIndex ? "#minicurso" : "../index.html#minicurso";
+    const palestrantesHref = isIndex ? "#palestrantes" : "../index.html#palestrantes";
+    const localHref = isIndex ? "#local" : "../index.html#local";
+    const comissaoHref = isIndex ? "#comissao" : "../index.html#comissao";
+    const patrocinadoresHref = isIndex ? "#patrocinadores" : "../index.html#patrocinadores";
+    const apoioHref = isIndex ? "#apoio" : "../index.html#apoio";
+    const inscricaoHref = isIndex ? "#inscricao" : "../index.html#inscricao";
 
     // Função auxiliar para determinar classe active
     const getActive = (target) => {
@@ -30,7 +30,7 @@ class SiteHeader extends HTMLElement {
       <header class="site-header">
         <div class="navbar">
           <div class="logo">
-            <a href="${isIndex ? '#hero' : 'index.html'}" data-target="hero">
+            <a href="${isIndex ? '#hero' : '../index.html'}" data-target="hero">
               <img src="${logoMenubar}" alt="Logo Simpósio SPGCST" />
             </a>
           </div>
