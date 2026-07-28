@@ -1088,6 +1088,17 @@ section h2 {
   text-align: justify;
 }
 
+.minicurso-info-block a {
+  color: var(--color-orange);
+  font-weight: 700;
+  text-decoration: underline;
+  transition: opacity 0.2s ease;
+}
+
+.minicurso-info-block a:hover {
+  opacity: 0.85;
+}
+
 .bullet-list-tight {
   margin: 0;
   padding-left: 20px;

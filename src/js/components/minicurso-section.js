@@ -45,7 +45,7 @@ class MinicursoSection extends HTMLElement {
               </div>
               <div class="detail-cell">
                 <span class="detail-label">🕒 HORÁRIO</span>
-                <span class="detail-value">08:00 às 12:00</span>
+                <span class="detail-value">13:00 às 18:00</span>
               </div>
               <div class="detail-cell">
                 <span class="detail-label">🎯 VAGAS</span>
@@ -59,20 +59,34 @@ class MinicursoSection extends HTMLElement {
 
             <div class="minicurso-info-block">
               <h4>📖 RESUMO DO MINICURSO</h4>
-              <p>O minicurso envolverá uma introdução teórica sobre geoprocessamento utilizando o software livre QGIS e atividades práticas englobando o processamento de dados espaciais, aplicação de simbologias, união de tabelas alfa-numéricas com shapefiles e elaboração de um mapa temático completo do zero.</p>
+              <p>Praticar a utilização de ferramentas para processamento e análise de dados espaciais no QGIS, com o objetivo de gerar informações úteis para pesquisas científicas e gestão do território.</p>
+            </div>
+
+            <div class="minicurso-info-block topics-block">
+              <h4>📌 TÓPICOS DO MINICURSO</h4>
+              <ul class="bullet-list-tight">
+                <li>Importação de dados espaciais no QGIS;</li>
+                <li>União de tabela com camada vetorial;</li>
+                <li>Análises espaciais com dados vetoriais;</li>
+                <li>Análises espaciais com dados raster;</li>
+                <li>Representação cartográfica dos resultados;</li>
+                <li>Dúvidas.</li>
+              </ul>
             </div>
 
             <div class="minicurso-info-block req-block">
               <h4>💡 REQUISITOS OBRIGATÓRIOS</h4>
               <ul class="bullet-list-tight">
-                <li>É obrigatório trazer seu notebook pessoal com o software <strong>QGIS instalado</strong>.</li>
-                <li>Baixar previamente os dados espaciais que serão indicados e disponibilizados pela instrutora antes do minicurso.</li>
+                <li>Ter disponibilidade para participar do curso pelas 5 horas;</li>
+                <li>Levar notebook com o QGIS instalado <strong><a href="https://qgis.org/download/" target="_blank">QGIS 3.44 (LTR)</a></strong>;</li>
+                <li>Possuir conhecimentos teóricos básicos de geoprocessamento (ou assistir ao vídeo <strong><a href="https://youtu.be/Fx4ESumq4Zk" target="_blank">introdução aos conceitos básicos de geoprocessamento</a></strong>);</li>
+                <li>Baixar previamente os dados espaciais (serão disponibilizados em breve).</li>
               </ul>
             </div>
 
             <div class="minicurso-info-block bio-block">
               <h4>👩‍🏫 MINIBIOGRAFIA</h4>
-              <p>É doutoranda em Ciência do Sistema Terrestre pelo INPE, co-autora do canal e blog <strong>Geoaplicada</strong> e instrutora de curso de QGIS na Geoaplicada. É mestre e bacharel em Geografia pela UFRN. Foi pesquisadora bolsista (PCI) do INPE e professora substituta do Departamento de Engenharia Civil da UFRN. Trabalhou como autônoma prestando serviços de mapeamento e ministrando aulas particulares de SIG. Na pesquisa científica, tem atuado principalmente com os temas de degradação da terra, indicadores socioambientais, Cartografia, SIG e vegetação urbana.</p>
+              <p>É bacharel e mestre em Geografia pela UFRN e doutoranda em Ciência do Sistema Terrestre pelo INPE, co-autora do canal e blog <strong>Geoaplicada</strong> e instrutora de QGIS. Tem experiências como pesquisadora bolsista (INPE), professora (UFRN e PUC-PR), na prestação de serviços de mapeamento e em aulas particulares de SIG. Na pesquisa científica, tem trabalhado principalmente com os temas degradação da terra, modelagem espacial, indicadores socioambientais e vegetação urbana.</p>
             </div>
 
             <div class="minicurso-action">
