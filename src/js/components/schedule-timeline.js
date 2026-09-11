@@ -156,7 +156,6 @@ class ScheduleTimeline extends HTMLElement {
           </div>
         </div>
 
-        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
 
       <!-- DIA 2 (Terça, 20/10) -->
@@ -220,20 +219,6 @@ class ScheduleTimeline extends HTMLElement {
               <div class="timeline-speaker">Palestrante: Alexandre Pires (MMA)</div>
             </div>
           </div>
-
-        <!--
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-badges">
-                <span class="time-badge">11:15 – 11:30</span>
-                <span class="location-badge">📍 Auditório</span>
-              </div>
-              <h4 class="timeline-title">Apresentação do Patrocinador</h4>
-              <p class="timeline-desc">Espaço institucional dos parceiros e apoiadores do simpósio.</p>
-            </div>
-          </div>
-        -->
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
@@ -316,7 +301,6 @@ class ScheduleTimeline extends HTMLElement {
           </div>
         </div>
 
-        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
 
       <!-- DIA 3 (Quarta, 21/10) -->
@@ -378,18 +362,6 @@ class ScheduleTimeline extends HTMLElement {
               <h4 class="timeline-title">Palestra: Thelma Krug</h4>
               <p class="timeline-desc">Panorama global e avanços em <strong>ciências da Terra e mudanças climáticas</strong> com a renomada pesquisadora Thelma Krug.</p>
               <div class="timeline-speaker">Palestrante: Thelma Krug (Ciências da Terra e Mudanças Climáticas)</div>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-badges">
-                <span class="time-badge">11:15 – 11:30</span>
-                <span class="location-badge">📍 Auditório</span>
-              </div>
-              <h4 class="timeline-title">Apresentação do Patrocinador</h4>
-              <p class="timeline-desc">Apresentação dos patrocinadores e parceiros institucionais.</p>
             </div>
           </div>
 
@@ -466,7 +438,7 @@ class ScheduleTimeline extends HTMLElement {
             <div class="timeline-content">
               <div class="timeline-badges">
                 <span class="time-badge">15:30 – 17:00</span>
-                <span class="location-badge">📍 Auditório</span>
+                <span class="location-badge">📍 Prédio do CST</span>
               </div>
               <h4 class="timeline-title">Oficina: MonitoraEA</h4>
               <p class="timeline-desc">Oficina prática de monitoramento e integração de práticas em educação e análise socioambiental.</p>
@@ -475,14 +447,13 @@ class ScheduleTimeline extends HTMLElement {
           </div>
         </div>
 
-        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
 
       <!-- DIA 4 (Quinta, 22/10) -->
       <div id="day4" class="tab-pane">
         <h3 style="text-align: center; margin-bottom: 15px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Papo sobre a Divisão e sobre o PPGCST (Encerramento)</h3>
         <div class="eixo-desc-box">
-          <strong>Programação de Encerramento:</strong> Dia focado na reflexão sobre o curso, apresentações orais de pesquisas discentes, premiações de excelência, visitação técnica aos laboratórios de ponta do CST e encerramento comunitário com plantio de árvores.
+          <strong>Programação de Encerramento:</strong> Dia focado na reflexão sobre o curso, apresentações orais de pesquisas discentes, premiações de excelência, visitação técnica aos laboratórios de ponta do CST e encerramento comunitário.
         </div>
 
         <div class="mesa-header">
@@ -585,22 +556,8 @@ class ScheduleTimeline extends HTMLElement {
               <p class="timeline-desc">Intervalo para lanche e bate-papo.</p>
             </div>
           </div>
-
-       <!-- a confirmar
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-badges">
-                <span class="time-badge">16:00</span>
-                <span class="location-badge">📍 INPE</span>
-              </div>
-              <h4 class="timeline-title">Plantio de Árvores com os Alunos CST/INPE</h4>
-              <p class="timeline-desc">Ato ecológico e comunitário de plantio de árvores no campus do INPE, simbolizando o compromisso com o futuro do Sistema Terrestre.</p>
-            </div>
-          </div>
         </div>
       </div>
-    -->
 
       <!-- DIA 5 (Sexta, 23/10) -->
       <div id="day5" class="tab-pane">
