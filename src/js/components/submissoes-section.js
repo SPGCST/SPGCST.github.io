@@ -14,7 +14,7 @@ class SubmissionsSection extends HTMLElement {
           <div class="submissions-col-info">
             <div class="brutalist-card callout-card">
               <h3 class="card-title text-orange">📅 PRAZO PARA SUBMISSÃO</h3>
-              <p class="highlight-date">Até 30 de agosto de 2026</p>
+              <p class="highlight-date">Até 18 de setembro de 2026</p>
               <p class="card-desc">As submissões poderão ser efetuadas em português, inglês ou espanhol.</p>
             </div>
 
