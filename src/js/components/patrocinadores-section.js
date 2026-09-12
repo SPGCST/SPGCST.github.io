@@ -1,6 +1,5 @@
 class SponsorsSection extends HTMLElement {
   connectedCallback() {
-    // Força o Vite a processar as imagens e retornar o caminho real final
     const logoVale = new URL('../../assets/images/vale-topografia.png', import.meta.url).href;
     const logoGeoOne = new URL('../../assets/images/geoone.png', import.meta.url).href;
 
@@ -8,8 +7,8 @@ class SponsorsSection extends HTMLElement {
       <div class="sponsors-container">
         <div class="sponsors-grid">
           <div class="sponsor-card">
-            <div class="sponsor-logo-wrapper">
-              <img src="${logoVale}" alt="Vale Topografia" class="sponsor-logo" />
+            <div class="sponsor-logo-wrapper" style="padding: 20px; display: flex; justify-content: center; align-items: center; height: 180px;">
+              <img src="${logoVale}" alt="Vale Topografia" class="sponsor-logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;" />
             </div>
             <div class="sponsor-meta">
               <span class="sponsor-name">Vale Topografia</span>
@@ -17,8 +16,8 @@ class SponsorsSection extends HTMLElement {
           </div>
 
           <div class="sponsor-card">
-            <div class="sponsor-logo-wrapper">
-              <img src="${logoGeoOne}" alt="GeoOne" class="sponsor-logo" />
+            <div class="sponsor-logo-wrapper" style="padding: 20px; display: flex; justify-content: center; align-items: center; height: 180px;">
+              <img src="${logoGeoOne}" alt="GeoOne" class="sponsor-logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;" />
             </div>
             <div class="sponsor-meta">
               <span class="sponsor-name">GeoOne</span>
