@@ -100,9 +100,9 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">13:30 – 14:10</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Palestra: Myhanna Lahsen</h4>
-              <p class="timeline-desc">Apresentação temática e reflexões socioambientais com Myhanna Lahsen.</p>
-              <div class="timeline-speaker">Palestrante: Myhanna Lahsen</div>
+              <h4 class="timeline-title">Palestra: Myanna Lahsen</h4>
+              <p class="timeline-desc">Apresentação temática e reflexões socioambientais com Myanna Lahsen.</p>
+              <div class="timeline-speaker">Palestrante: Myanna Lahsen</div>
             </div>
           </div>
 
@@ -143,19 +143,18 @@ class ScheduleTimeline extends HTMLElement {
             </div>
           </div>
 
-          <div class="timeline-item">
+              <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-badges">
                 <span class="time-badge">15:30 – 17:00</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Oficina MCTI Adapta Brasil</h4>
-              <p class="timeline-desc">Atividade prática sobre a plataforma AdaptaBrasil do MCTI para modelagem, análise e suporte à formulação de políticas públicas de adaptação.</p>
+              <h4 class="timeline-title">Oficina: Gaia em Jogo</h4>
+              <p class="timeline-desc">Dinâmica vivencial de tomada de decisão, governança e modelagem de sustentabilidade planetária em formato de jogo cooperativo.</p>
             </div>
           </div>
         </div>
-
       </div>
 
       <!-- DIA 2 (Terça, 20/10) -->
@@ -295,12 +294,11 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">15:30 – 17:00</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Oficina: Gaia em Jogo</h4>
-              <p class="timeline-desc">Dinâmica vivencial de tomada de decisão, governança e modelagem de sustentabilidade planetária em formato de jogo cooperativo.</p>
+              <h4 class="timeline-title">Oficina MCTI Adapta Brasil</h4>
+              <p class="timeline-desc">Atividade prática sobre a plataforma AdaptaBrasil do MCTI para modelagem, análise e suporte à formulação de políticas públicas de adaptação.</p>
             </div>
           </div>
         </div>
-
       </div>
 
       <!-- DIA 3 (Quarta, 21/10) -->
