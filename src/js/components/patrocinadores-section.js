@@ -1,8 +1,9 @@
-import logoVale from '../../assets/images/vale-topografia.png';
-import logoGeoOne from '../../assets/images/geoone.png';
-
 class SponsorsSection extends HTMLElement {
   connectedCallback() {
+    // Força o Vite a processar as imagens e retornar o caminho real final
+    const logoVale = new URL('../../assets/images/vale-topografia.png', import.meta.url).href;
+    const logoGeoOne = new URL('../../assets/images/geoone.png', import.meta.url).href;
+
     this.innerHTML = `
       <div class="sponsors-container">
         <div class="sponsors-grid">
