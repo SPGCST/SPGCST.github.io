@@ -1,11 +1,23 @@
 class SpeakersList extends HTMLElement {
   connectedCallback() {
+    const photoRolnik = new URL('../../assets/images/Speaker Raquel Rolnik.jpg', import.meta.url).href;
+    const photoGuato = new URL('../../assets/images/Speaker Julio Guato.jpg', import.meta.url).href;
+    const photoGalvao = new URL('../../assets/images/Speaker Ricardo Galvao.jpg', import.meta.url).href;
+    const photoLahsen = new URL('../../assets/images/Speaker Myanna Lahsen.jpg', import.meta.url).href;
+    const photoAlvala = new URL('../../assets/images/Speaker Regina Celia dos Santos Alvala.jpg', import.meta.url).href;
+    const photoVonRandow = new URL('../../assets/images/Speaker Rita Von Randow.jpg', import.meta.url).href;
+    const photoOmetto = new URL('../../assets/images/Speaker Jean Ometto.jpg', import.meta.url).href;
+    const photoBuckeridge = new URL('../../assets/images/Speaker Marcos Silveira Buckeridge.jpg', import.meta.url).href;
+    const photoKrug = new URL('../../assets/images/Speaker Thelma Krug.jpg', import.meta.url).href;
+    const photoPires = new URL('../../assets/images/Speaker Alexandre Henrique Pereira Pires.jpg', import.meta.url).href;
+
     this.innerHTML = `
       <div class="speakers-container">
         <div class="speakers-grid" style="margin-top: 0; margin-bottom: 50px;">
+          
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">RR</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoRolnik}" alt="Raquel Rolnik" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
             <h3 class="speaker-name">Raquel Rolnik</h3>
             <p class="speaker-title">FAU-USP</p>
@@ -13,8 +25,8 @@ class SpeakersList extends HTMLElement {
           </div>
 
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">JG</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoGuato}" alt="Julio Guató" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
             <h3 class="speaker-name">Julio Guató</h3>
             <p class="speaker-title">Povo Indígena Guató</p>
@@ -22,8 +34,8 @@ class SpeakersList extends HTMLElement {
           </div>
 
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">RG</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoGalvao}" alt="Ricardo Galvão" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
             <h3 class="speaker-name">Ricardo Galvão</h3>
             <p class="speaker-title">CNPq / USP</p>
@@ -31,8 +43,8 @@ class SpeakersList extends HTMLElement {
           </div>
 
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">ML</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoLahsen}" alt="Myanna Lahsen" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
             <h3 class="speaker-name">Myanna Lahsen</h3>
             <p class="speaker-title">INPE / CCST</p>
@@ -40,8 +52,8 @@ class SpeakersList extends HTMLElement {
           </div>
 
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">RA</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoAlvala}" alt="Regina Célia dos Santos Alvalá" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
             <h3 class="speaker-name">Regina Célia dos Santos Alvalá</h3>
             <p class="speaker-title">Cemaden / INPE</p>
@@ -49,8 +61,8 @@ class SpeakersList extends HTMLElement {
           </div>
 
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">RV</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoVonRandow}" alt="Rita de Cássia Silva Von Randow" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
             <h3 class="speaker-name">Rita de Cássia Silva Von Randow</h3>
             <p class="speaker-title">CST / INPE</p>
@@ -58,8 +70,8 @@ class SpeakersList extends HTMLElement {
           </div>
 
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">JO</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoOmetto}" alt="Jean Ometto" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
             <h3 class="speaker-name">Jean Ometto</h3>
             <p class="speaker-title">INPE / CCST</p>
@@ -67,17 +79,17 @@ class SpeakersList extends HTMLElement {
           </div>
 
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">AS</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoPires}" alt="Alexandre Pires" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
-            <h3 class="speaker-name">António Mauro Saraiva</h3>
-            <p class="speaker-title">USP</p>
-            <p class="speaker-bio">Pesquisador em engenharia de computação aplicada à agricultura e saúde planetária.</p>
+            <h3 class="speaker-name">Alexandre Henrique Pereira Pires</h3>
+            <p class="speaker-title">MMA</p>
+            <p class="speaker-bio">Atuação em políticas públicas e estratégias de mitigação e adaptação climática.</p>
           </div>
 
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">TK</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoKrug}" alt="Thelma Krug" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
             <h3 class="speaker-name">Thelma Krug</h3>
             <p class="speaker-title">INPE / Ex-IPCC</p>
@@ -85,22 +97,14 @@ class SpeakersList extends HTMLElement {
           </div>
 
           <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">AP</div>
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoBuckeridge}" alt="Marcos Buckeridge" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
-            <h3 class="speaker-name">Alexandre Pires</h3>
-            <p class="speaker-title">MMA</p>
-            <p class="speaker-bio">Atuação em políticas públicas e estratégias de mitigação e adaptação climática.</p>
-          </div>
-
-          <div class="speaker-card">
-            <div class="speaker-avatar-wrapper">
-              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">MB</div>
-            </div>
-            <h3 class="speaker-name">Marcos Buckeridge</h3>
+            <h3 class="speaker-name">Marcos Silveira Buckeridge</h3>
             <p class="speaker-title">IB-USP</p>
             <p class="speaker-bio">Pesquisador em fisiologia vegetal, bioenergia e infraestrutura verde urbana (Cidades Esponja).</p>
           </div>
+
         </div>
       </div>
     `;
