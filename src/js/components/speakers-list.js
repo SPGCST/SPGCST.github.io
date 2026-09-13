@@ -18,7 +18,7 @@ class SpeakersList extends HTMLElement {
             </div>
             <h3 class="speaker-name">Julio Guató</h3>
             <p class="speaker-title">Povo Indígena Guató</p>
-            <p class="speaker-bio">Pesquisador e liderança indígena, atuando na preservação dos saberes ancestrais, território e dinâmicas socioambientais do Pantanal.</p>
+            <p class="speaker-bio">Pesquisador e liderança indígena, atuando na preservação dos saberes ancestrais, do território e das dinâmicas socioambientais do Pantanal.</p>
           </div>
 
           <div class="speaker-card">
@@ -34,7 +34,7 @@ class SpeakersList extends HTMLElement {
             <div class="speaker-avatar-wrapper">
               <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">ML</div>
             </div>
-            <h3 class="speaker-name">Myhanna Lahsen</h3>
+            <h3 class="speaker-name">Myanna Lahsen</h3>
             <p class="speaker-title">INPE / CCST</p>
             <p class="speaker-bio">Pesquisadora e especialista em interações entre ciência e política ambiental e mudanças climáticas.</p>
           </div>
