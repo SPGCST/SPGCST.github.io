@@ -1,4 +1,4 @@
-import bannerImg from '../../assets/images/banner-001.jpeg';
+import bannerImg from '../../assets/images/banner-001.jpg';
 
 class NoticeModal extends HTMLElement {
   connectedCallback() {
