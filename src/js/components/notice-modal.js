@@ -66,6 +66,7 @@ class NoticeModal extends HTMLElement {
 customElements.define('notice-modal', NoticeModal);
 
 // Auto-instancia caso a tag não esteja presente no HTML e a sessão seja nova
+/*
 if (typeof document !== 'undefined') {
   const initNoticeModal = () => {
     if (!sessionStorage.getItem('simposio_notice_modal_seen') && !document.querySelector('notice-modal')) {
@@ -80,3 +81,4 @@ if (typeof document !== 'undefined') {
     initNoticeModal();
   }
 }
+*/
