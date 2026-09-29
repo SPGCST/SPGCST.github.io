@@ -10,7 +10,7 @@ import './components/submissoes-section.js'
 import './components/minicurso-section.js'
 import './components/patrocinadores-section.js'
 import './components/apoio-section.js'
-// import './components/notice-modal.js'
+import './components/notice-modal.js'
 import { initGlobe } from './globe.js'
 
 document.addEventListener('DOMContentLoaded', () => {
