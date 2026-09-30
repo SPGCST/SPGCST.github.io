@@ -1,4 +1,4 @@
-import bannerImg from '../../assets/images/banner-001.jpg';
+import bannerImg from '../../assets/images/banner-003.jpeg';
 
 class NoticeModal extends HTMLElement {
   connectedCallback() {
@@ -12,7 +12,7 @@ class NoticeModal extends HTMLElement {
         <div class="notice-modal-container">
           <button class="notice-modal-close" id="notice-modal-close" aria-label="Fechar aviso">&times;</button>
           <div class="notice-modal-content">
-            <img src="${bannerImg}" alt="Aviso SPGCST: Prorrogação de prazo de submissão de trabalhos até 30/08" class="notice-modal-img" />
+            <img src="${bannerImg}" alt="Comunicado Oficial - 13º Simpósio SPGCST" class="notice-modal-img" />
           </div>
         </div>
       </div>
