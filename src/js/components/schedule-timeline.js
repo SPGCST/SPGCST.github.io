@@ -245,7 +245,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Palestra: Rita de Cássia Silva von Randow</h4>
-              <p class="timeline-desc">Apresentação institucional e acolhimento com <strong>boas-vindas aos novos membros do CST</strong>.</p>
+              <p class="timeline-desc">Palestra sobre Dinâmicas de Fluxo, Modelagem e Resiliência Climática.</p>
               <div class="timeline-speaker">Palestrante: Rita de Cássia Silva von Randow (CST/INPE)</div>
             </div>
           </div>
