@@ -9,7 +9,7 @@ class MinicursoSection extends HTMLElement {
         <div class="minicurso-rules-banner">
           <div class="rule-item">
             <span class="rule-icon">📌</span>
-            <span><strong>Inscrições abertas</strong> até 20 de setembro de 2026.</span>
+            <span><strong>Inscrições abertas</strong> até 19 de outubro de 2026.</span>
           </div>
           <div class="rule-item">
             <span class="rule-icon">🆓</span>
@@ -53,7 +53,7 @@ class MinicursoSection extends HTMLElement {
               </div>
               <div class="detail-cell">
                 <span class="detail-label">📍 LOCAL</span>
-                <span class="detail-value">Prédio do SERE/INPE (sala indicada posteriormente)</span>
+                <span class="detail-value">Prédio do CCST/INPE (sala de aula 01)</span>
               </div>
             </div>
 
