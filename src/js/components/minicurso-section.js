@@ -17,7 +17,7 @@ class MinicursoSection extends HTMLElement {
           </div>
           <div class="rule-item">
             <span class="rule-icon">⚠️</span>
-            <span><strong>Vagas Limitadas:</strong> Apenas <strong>16 vagas disponíveis</strong>. O minicurso será realizado no dia <strong>23 de Outubro de 2026</strong>, das <strong>13:00 às 18:00</strong>.</span>
+            <span><strong>Vagas Limitadas:</strong> Apenas <strong>15 vagas disponíveis</strong>. O minicurso será realizado no dia <strong>23 de Outubro de 2026</strong>, das <strong>13:00 às 18:00</strong>.</span>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ class MinicursoSection extends HTMLElement {
               </div>
               <div class="detail-cell">
                 <span class="detail-label">🎯 VAGAS</span>
-                <span class="detail-value">Até 16 participantes</span>
+                <span class="detail-value">Até 15 participantes</span>
               </div>
               <div class="detail-cell">
                 <span class="detail-label">📍 LOCAL</span>
@@ -88,10 +88,10 @@ class MinicursoSection extends HTMLElement {
               <h4>👩‍🏫 MINIBIOGRAFIA</h4>
               <p>É bacharel e mestre em Geografia pela UFRN e doutoranda em Ciência do Sistema Terrestre pelo INPE, co-autora do canal e blog <strong>Geoaplicada</strong> e instrutora de QGIS. Tem experiências como pesquisadora bolsista (INPE), professora (UFRN e PUC-PR), na prestação de serviços de mapeamento e em aulas particulares de SIG. Na pesquisa científica, tem trabalhado principalmente com os temas degradação da terra, modelagem espacial, indicadores socioambientais e vegetação urbana.</p>
             </div>
-
+            
             <div class="minicurso-action">
               <div class="action-status">
-                <span class="status-indicator-green"></span> Inscrições abertas via e-mail!
+                
               </div>
               <a href="#inscricao" class="btn-primary" id="minicurso-to-inscricao">Fazer Inscrição no Simpósio</a>
             </div>
