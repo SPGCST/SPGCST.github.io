@@ -113,9 +113,9 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">14:10 – 14:50</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Palestra: Raquel Rolnik</h4>
-              <p class="timeline-desc">Discussão sobre planejamento urbano, vulnerabilidades e <strong>cidades resilientes</strong> frente às mudanças climáticas.</p>
-              <div class="timeline-speaker">Palestrante: Raquel Rolnik (Cidades Resilientes)</div>
+              <h4 class="timeline-title">Palestra: A definir</h4>
+              <p class="timeline-desc">A definir</strong></p>
+              <div class="timeline-speaker">Palestrante: A definir</div>
             </div>
           </div>
 
