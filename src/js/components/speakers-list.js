@@ -14,7 +14,8 @@ class SpeakersList extends HTMLElement {
     this.innerHTML = `
       <div class="speakers-container">
         <div class="speakers-grid" style="margin-top: 0; margin-bottom: 50px;">
-          
+
+          <!-- 
           <div class="speaker-card">
             <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
               <img src="${photoRolnik}" alt="Raquel Rolnik" style="width: 100%; height: 100%; object-fit: cover;" />
@@ -23,6 +24,7 @@ class SpeakersList extends HTMLElement {
             <p class="speaker-title">FAU-USP</p>
             <p class="speaker-bio">Arquiteta e urbanista, professora titular da FAU-USP e ex-relatora especial da ONU para o Direito à Moradia Adequada.</p>
           </div>
+          -->
 
           <div class="speaker-card">
             <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
