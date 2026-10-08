@@ -1,6 +1,5 @@
 class SpeakersList extends HTMLElement {
   connectedCallback() {
-    const photoRolnik = new URL('../../assets/images/Speaker Raquel Rolnik.jpg', import.meta.url).href;
     const photoGuato = new URL('../../assets/images/Speaker Julio Guato.jpg', import.meta.url).href;
     const photoGalvao = new URL('../../assets/images/Speaker Ricardo Galvao.jpg', import.meta.url).href;
     const photoLahsen = new URL('../../assets/images/Speaker Myanna Lahsen.jpg', import.meta.url).href;
@@ -15,16 +14,6 @@ class SpeakersList extends HTMLElement {
       <div class="speakers-container">
         <div class="speakers-grid" style="margin-top: 0; margin-bottom: 50px;">
 
-          <!-- 
-          <div class="speaker-card">
-            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
-              <img src="${photoRolnik}" alt="Raquel Rolnik" style="width: 100%; height: 100%; object-fit: cover;" />
-            </div>
-            <h3 class="speaker-name">Raquel Rolnik</h3>
-            <p class="speaker-title">FAU-USP</p>
-            <p class="speaker-bio">Arquiteta e urbanista, professora titular da FAU-USP e ex-relatora especial da ONU para o Direito à Moradia Adequada.</p>
-          </div>
-          -->
 
           <div class="speaker-card">
             <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
