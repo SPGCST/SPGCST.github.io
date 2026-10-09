@@ -1,5 +1,6 @@
 class SpeakersList extends HTMLElement {
   connectedCallback() {
+    const photoDutra = new URL('../../assets/images/Ana Paula Dutra.jpeg', import.meta.url).href;
     const photoGatti = new URL('../../assets/images/Luciana Gatti.jpeg', import.meta.url).href;
     const photoGuato = new URL('../../assets/images/Speaker Julio Guato.jpg', import.meta.url).href;
     const photoGalvao = new URL('../../assets/images/Speaker Ricardo Galvao.jpg', import.meta.url).href;
@@ -22,6 +23,15 @@ class SpeakersList extends HTMLElement {
             <h3 class="speaker-name">Luciana Gatti</h3>
             <p class="speaker-title">INPE/CST</p>
             <p class="speaker-bio">Pesquisadora especializada em química atmosférica e gases de efeito estufa. Coordena o Laboratório de Gases de Efeito Estufa (LaGEE).</p>
+          </div>
+
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoDutra}" alt="Ana Paula Dutra de Aguiar" style="width: 100%; height: 100%; object-fit: cover;" />
+            </div>
+            <h3 class="speaker-name">Ana Paula Dutra de Aguiar</h3>
+            <p class="speaker-title">INPE/CST</p>
+            <p class="speaker-bio">Pesquisadora especializada em modelagem ambiental, mudanças no uso e cobertura da terra e construção de cenários participativos para futuros sustentáveis.</p>
           </div>
           
           <div class="speaker-card">
