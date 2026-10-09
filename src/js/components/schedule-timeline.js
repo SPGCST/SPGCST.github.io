@@ -70,7 +70,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">10:30 – 11:15</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Palestra: Ana Paula Dutra de Aguiar CST/INPE</h4>
+              <h4 class="timeline-title">Palestra: Ana Paula Dutra de Aguiar</h4>
               <p class="timeline-desc">Perspectivas da modelagem ambiental para compreender as mudanças na dinâmica do uso e da cobertura da terra.</p>
               <div class="timeline-speaker">Palestrante: Ana Paula Dutra de Aguiar</div>
             </div>
