@@ -1,5 +1,6 @@
 class SpeakersList extends HTMLElement {
   connectedCallback() {
+    const photoGuato = new URL('../../assets/images/Speaker Luciana Gatti.jpg', import.meta.url).href;
     const photoGuato = new URL('../../assets/images/Speaker Julio Guato.jpg', import.meta.url).href;
     const photoGalvao = new URL('../../assets/images/Speaker Ricardo Galvao.jpg', import.meta.url).href;
     const photoLahsen = new URL('../../assets/images/Speaker Myanna Lahsen.jpg', import.meta.url).href;
@@ -14,7 +15,15 @@ class SpeakersList extends HTMLElement {
       <div class="speakers-container">
         <div class="speakers-grid" style="margin-top: 0; margin-bottom: 50px;">
 
-
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
+              <img src="${photoGuato}" alt="Julio Guató" style="width: 100%; height: 100%; object-fit: cover;" />
+            </div>
+            <h3 class="speaker-name">Luciana Gatti</h3>
+            <p class="speaker-title">INPE/CST</p>
+            <p class="speaker-bio">Pesquisadora especializada em química atmosférica e gases de efeito estufa. Coordena o Laboratório de Gases de Efeito Estufa (LaGEE).</p>
+          </div>
+          
           <div class="speaker-card">
             <div class="speaker-avatar-wrapper" style="width: 120px; height: 120px; margin: 0 auto 20px auto; border-radius: 50%; overflow: hidden; border: 3px solid rgba(59, 152, 211, 0.4);">
               <img src="${photoGuato}" alt="Julio Guató" style="width: 100%; height: 100%; object-fit: cover;" />
