@@ -67,11 +67,12 @@ class ScheduleTimeline extends HTMLElement {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-badges">
-                <span class="time-badge">10:45 – 11:15</span>
-                <span class="location-badge">📍 Hall do auditório</span>
+                <span class="time-badge">10:30 – 11:15</span>
+                <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Coffee Break</h4>
-              <p class="timeline-desc">Intervalo para café e integração dos participantes.</p>
+              <h4 class="timeline-title">Palestra: Ana Paula Dutra de Aguiar CST/INPE</h4>
+              <p class="timeline-desc">Perspectivas da modelagem ambiental para compreender as mudanças na dinâmica do uso e da cobertura da terra.</p>
+              <div class="timeline-speaker">Palestrante: Ana Paula Dutra de Aguiar</div>
             </div>
           </div>
 
@@ -487,7 +488,7 @@ class ScheduleTimeline extends HTMLElement {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-badges">
-                <span class="time-badge">09:30 – 11:30</span>
+                <span class="time-badge">09:30 – 11:40</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Apresentação de Trabalhos</h4>
@@ -499,7 +500,7 @@ class ScheduleTimeline extends HTMLElement {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-badges">
-                <span class="time-badge">11:30 – 12:00</span>
+                <span class="time-badge">11:40 – 12:00</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Premiações de Melhores Trabalhos / Palestra sobre Saúde Mental</h4>
