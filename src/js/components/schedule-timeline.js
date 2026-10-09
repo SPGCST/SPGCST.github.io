@@ -113,9 +113,9 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">14:10 – 14:50</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Palestra: A definir</h4>
-              <p class="timeline-desc">A definir</strong></p>
-              <div class="timeline-speaker">Palestrante: A definir</div>
+              <h4 class="timeline-title">Palestra: Luciana Gattir</h4>
+              <p class="timeline-desc">"Emissões de carbono da Amazônia impulsionadas por ações humanas e amplificadas por secas</strong></p>
+              <div class="timeline-speaker">Palestrante: Luciana Gatti</div>
             </div>
           </div>
 
