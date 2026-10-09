@@ -1,6 +1,6 @@
 class SpeakersList extends HTMLElement {
   connectedCallback() {
-    const photoDutra = new URL('../../assets/images/Ana Paula Dutra.jpeg', import.meta.url).href;
+    const photoDutra = new URL('../../assets/images/Ana Paula Dutra.jpg', import.meta.url).href;
     const photoGatti = new URL('../../assets/images/Luciana Gatti.jpeg', import.meta.url).href;
     const photoGuato = new URL('../../assets/images/Speaker Julio Guato.jpg', import.meta.url).href;
     const photoGalvao = new URL('../../assets/images/Speaker Ricardo Galvao.jpg', import.meta.url).href;
