@@ -91,7 +91,7 @@ class MinicursoSection extends HTMLElement {
             
             <div class="minicurso-action">
               <div class="action-status">
-                
+                <span class="status-indicator-green"></span> Inscrições abertas!
               </div>
               <a href="#inscricao" class="btn-primary" id="minicurso-to-inscricao">Fazer Inscrição no Simpósio</a>
             </div>
