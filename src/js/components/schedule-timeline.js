@@ -521,8 +521,8 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">14:00 – 15:00</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Visita aos Laboratórios do CST</h4>
-              <p class="timeline-desc">Visita técnica guiada às instalações e laboratórios do Centro de Ciência do Sistema Terrestre:</p>
+              <h4 class="timeline-title">Apresentação dos Laboratórios do CST</h4>
+              <p class="timeline-desc">Apresentação relativa às instalações e atividades realizadas nos laboratórios do Centro de Ciência do Sistema Terrestre:</p>
               <ul class="timeline-list">
                 <li><strong>LaGEE</strong> – Laboratório de Gases de Efeito Estufa</li>
                 <li><strong>LABREN</strong> – Laboratório de Modelagem e Estudos de Recursos Renováveis de Energia</li>
