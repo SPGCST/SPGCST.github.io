@@ -503,8 +503,8 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">11:40 – 12:00</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Premiações de Melhores Trabalhos / Palestra sobre Saúde Mental</h4>
-              <p class="timeline-desc">Cerimônia de premiação aos trabalhos de destaque do simpósio e momento reflexivo sobre saúde mental e bem-estar na pós-graduação.</p>
+              <h4 class="timeline-title">Premiações de Melhores Trabalhos </h4>
+              <p class="timeline-desc">Cerimônia de premiação aos trabalhos de destaque do simpósio.</p>
             </div>
           </div>
         </div>
