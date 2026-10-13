@@ -503,7 +503,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">11:40 – 12:00</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Premiações de Melhores Trabalhos </h4>
+              <h4 class="timeline-title">Premiações dos melhores trabalhos apresentados no XIII SPGCST </h4>
               <p class="timeline-desc">Cerimônia de premiação aos trabalhos de destaque do simpósio.</p>
             </div>
           </div>
