@@ -102,7 +102,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Palestra: Myanna Lahsen</h4>
-              <p class="timeline-desc">Apresentação temática e reflexões socioambientais com Myanna Lahsen.</p>
+              <p class="timeline-desc">"Dicotomias enganosas e escolhas limitantes: Repensando a adaptação climática".</p>
               <div class="timeline-speaker">Palestrante: Myanna Lahsen</div>
             </div>
           </div>
@@ -115,7 +115,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Palestra: Luciana Gatti</h4>
-              <p class="timeline-desc">"Emissões de carbono da Amazônia impulsionadas por ações humanas e amplificadas por secas".</p>
+              <p class="timeline-desc"> "Amazon carbon emissions driven by human actions amplified by droughts".</p>
               <div class="timeline-speaker">Palestrante: Luciana Gatti</div>
             </div>
           </div>
@@ -246,7 +246,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Palestra: Rita de Cássia Silva von Randow</h4>
-              <p class="timeline-desc">Palestra sobre Dinâmicas de Fluxo, Modelagem e Resiliência Climática.</p>
+              <p class="timeline-desc">"Dinâmicas Biofísicas na Amazônia e Pressões Antrópicas".</p>
               <div class="timeline-speaker">Palestrante: Rita de Cássia Silva von Randow (CST/INPE)</div>
             </div>
           </div>
@@ -259,7 +259,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Palestra: António Mauro Saraiva (USP)</h4>
-              <p class="timeline-desc">Apresentação sobre ações antrópicas, conexões ecológicas e <strong>o conceito e o movimento de Saúde Planetária</strong>.</p>
+              <p class="timeline-desc">"Saúde Planetária: Enfrentando as múltiplas e interconectadas crises"</strong>.</p>
               <div class="timeline-speaker">Palestrante: António Mauro Saraiva (USP)</div>
             </div>
           </div>
@@ -293,7 +293,7 @@ class ScheduleTimeline extends HTMLElement {
             <div class="timeline-content">
               <div class="timeline-badges">
                 <span class="time-badge">15:30 – 17:00</span>
-                <span class="location-badge">📍 Auditório</span>
+                <span class="location-badge">📍 Sala 27 - 1° andar do prédio do CCST</span>
               </div>
               <h4 class="timeline-title">Oficina MCTI Adapta Brasil</h4>
               <p class="timeline-desc">Atividade prática sobre a plataforma AdaptaBrasil do MCTI para modelagem, análise e suporte à formulação de políticas públicas de adaptação.</p>
@@ -334,7 +334,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Palestra: Ricardo Galvão</h4>
-              <p class="timeline-desc">Palestra magna abordando desafios da ciência, inovação tecnológica, integridade dos dados e monitoramento espacial.</p>
+              <p class="timeline-desc">"Desenvolvimento de Políticas Públicas Baseadas na Evidência Científica".</p>
               <div class="timeline-speaker">Palestrante: Ricardo Galvão</div>
             </div>
           </div>
@@ -359,7 +359,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Palestra: Thelma Krug</h4>
-              <p class="timeline-desc">Panorama global e avanços em <strong>ciências da Terra e mudanças climáticas</strong> com a renomada pesquisadora Thelma Krug.</p>
+              <p class="timeline-desc">Panorama global e avanços em ciências da Terra e mudanças climáticas com a renomada pesquisadora Thelma Krug.</p>
               <div class="timeline-speaker">Palestrante: Thelma Krug (Ciências da Terra e Mudanças Climáticas)</div>
             </div>
           </div>
@@ -390,7 +390,7 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Palestra CST: Regina Alvalá</h4>
-              <p class="timeline-desc">Pesquisa científica em monitoramento de desastres, alertas e a trajetória do CST.</p>
+              <p class="timeline-desc">"Pesquisas, Modelagem e Monitoramento de Eventos Climáticos Extremos".</p>
               <div class="timeline-speaker">Palestrante CST: Regina Alvalá (Cemaden/INPE)</div>
             </div>
           </div>
@@ -437,7 +437,7 @@ class ScheduleTimeline extends HTMLElement {
             <div class="timeline-content">
               <div class="timeline-badges">
                 <span class="time-badge">15:30 – 17:00</span>
-                <span class="location-badge">📍 Prédio do CST</span>
+                <span class="location-badge">📍 Sala 27 - 1° andar do prédio do CCST</span>
               </div>
               <h4 class="timeline-title">Oficina: MonitoraEA</h4>
               <p class="timeline-desc">Oficina prática de monitoramento e integração de práticas em educação e análise socioambiental.</p>
@@ -555,7 +555,23 @@ class ScheduleTimeline extends HTMLElement {
               <p class="timeline-desc">Intervalo para lanche e bate-papo.</p>
             </div>
           </div>
+
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">16:00 – 17:00</span>
+                <span class="location-badge">📍 Concentração em frente ao prédio do LIT</span>
+              </div>
+              <h4 class="timeline-title">Plantio de árvores</h4>
+              <p class="timeline-desc">Plantio de árvores com os alunos CST/INPE em parceria com "De Olho nas Árvores".</p>
+              
+            </div>
+          </div>
         </div>
+       
+        
       </div>
 
       <!-- DIA 5 (Sexta, 23/10) -->
@@ -596,7 +612,7 @@ class ScheduleTimeline extends HTMLElement {
             <div class="timeline-content">
               <div class="timeline-badges">
                 <span class="time-badge">13:00 – 18:00</span>
-                <span class="location-badge">📍 A ser definido</span>
+                <span class="location-badge">📍 Sala 27 - 1° andar do prédio do CCST</span>
               </div>
               <h4 class="timeline-title">Minicurso Geoaplicada (Duração: 5 horas)</h4>
               <p class="timeline-desc">Atividade prática de capacitação em ferramentas e análise de dados geoespaciais voltada para a Ciência do Sistema Terrestre.</p>
