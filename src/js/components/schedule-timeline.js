@@ -518,7 +518,7 @@ class ScheduleTimeline extends HTMLElement {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-badges">
-                <span class="time-badge">14:00 – 15:00</span>
+                <span class="time-badge">13:30 – 15:00</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
               <h4 class="timeline-title">Apresentação dos Laboratórios do CST</h4>
